@@ -1,0 +1,18 @@
+# Bỏ qua thư mục node_modules (chứa package của npm)
+node_modules/
+
+# Bỏ qua file môi trường chứa thông tin quan trọng
+.env
+
+# Bỏ qua thư mục build, log, cache
+build/
+dist/
+logs/
+.cache/
+
+# Bỏ qua file hệ thống của macOS
+.DS_Store
+
+# Bỏ qua các thư mục của editor (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
